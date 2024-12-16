@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #000; /* Set background color to match your design */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03852a;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+/* Logo */
+.navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    height: 100px;
+}
+
+/* Navigation Links */
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #1abc9c;
+}
+
+/* Additional styles for the landing page */
+.brosur-page, .landing-page {
+    padding: 20px;
+    color: #fff; /* Text color for better visibility */
+    text-align: center;
+}
+
+.poster-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0; /* Space between sections */
+}
+
+.poster-item {
+    margin: 10px;
+}
+
+.poster-item img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    border-radius: 5px;
+}
+
+.lp {
+    margin: 20px 0; /* Space above the location info */
+}
+
+.maps {
+    margin: 20px 0; /* Space above the map */
+}

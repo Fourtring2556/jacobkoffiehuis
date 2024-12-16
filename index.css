@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+/* Logo */
+.navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Navigation Links */
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #1abc9c;
+}
+
+/* Navbar Container */
+.section1 {
+    background-image: url('Gambar/jcob.jpg'); /* Ganti dengan URL gambar */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Tinggi 100% dari viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: -100px;
+}
+
+.title {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.section2 {
+    text-align: justify;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.section2 h1{
+    padding-top: 100px;
+}
+
+.section2 img{
+    height: 1000px;
+}
+.p311{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.p311 h3 {
+    font-size:30px ;
+}
+
+.ABOUT{
+    text-align: inherit;
+    padding-left: 100px;
+    font-size: 25px;
+}
+
+.why {
+    text-align: center;
+    padding-top: 100px;
+}
+ 
+.points-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.points {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.point {
+    flex-basis: 30%; /* Adjust this value as needed */
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.point h4{
+    font-size: 30px;
+}
+
+.point p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.why img {
+    height: 400px;
+}

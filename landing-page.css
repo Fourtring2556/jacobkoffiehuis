@@ -1,0 +1,38 @@
+.landing-page {
+    background-color: #004214;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 2000px;
+    display: flex;
+    align-content: space-evenly;
+}
+
+
+.landing-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-left: 200px;
+}
+
+.landing-page p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.maps {
+    padding-left: 100px;
+}
+
+.lp {
+    align-content: center;
+}
+
+.contact-info {
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
